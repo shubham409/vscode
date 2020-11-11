@@ -1,0 +1,24 @@
+Primitive datatype
+1) integer(byte, short, int ,long)
+2) float(float ,double)
+3) char
+4) boolean
+--------for numbers-----------
+Type            Size              Range                                         Default
+
+byte            1               -128 to 127                                     0                               
+short           2               -32,768 to 32,767   (5 digit)                   0
+int             4               -2,14,74,83,648 to 2,14,74,83,648 (10 digit)    0
+long            8               -92,23,37,20,36,85,47,75,808  to                0
+                                92,23,37,20,36,85,47,75,807    (19digit)
+
+float           4         + or -3.40282347 x 10^38, 1.40239846 x 10^-45         0.0f
+double          8         + or -1.7976931348623157 x 10^308 to                  0.0d
+                          + or -4.9406564584124654 x 10^-324                                                     
+
+char            2               0 to 65535                                      '\u0000'
+            (java support unicde)
+
+boolean      (1bit to 1 byte)   true or false                                   false
+              depend upon jvm
+
