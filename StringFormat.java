@@ -21,7 +21,7 @@ public class StringFormat {
         
         System.out.printf("%1$s %1$s", s);
 
-        System.out.printf("%1$10d  %2$18f",i,d);
+        System.out.printf("%1$10d  %2$18f",i1,d1);
 
         System.out.printf("%1$s %1$s", s);
 
